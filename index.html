@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Vaibhavi</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Vaibhavi<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Vaibhavi, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img2.jfif" alt="profile picture" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------about---------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="MyImage.jpg" alt="About Me Image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+              pariatur harum omnis excepturi eligendi, necessitatibus porro
+              distinctio iusto at, corporis nisi eius vero soluta ab adipisci
+              magnam maiores dignissimos. Dicta!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+              <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Designing Web-App interfaces</span><br />HTML,CSS & Javascript
+                </li>
+                <li>
+                  <span>MS-Office</span><br />Advanced Excel
+                </li>
+                <li>
+                  <span>Python</span><br />Java
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Internship at Prodigy InfoTech-2024</span><br />Teaching-2023
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Queen Mary High School</span><br />SSC
+                </li>
+                <li>
+                  <span>Vivek Junior College of Science</span><br />HSC
+                </li>
+                <li>
+                  <span>Thakur Shymnarayan Degree College</span><br />Currently in TY
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------------------------Services-------------------------------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="services-list">
+        <div>
+          <i class='bx bx-code-alt'></i>
+          <h2>Respnosive Website</h2>
+          <p>I designed an interactive navigation menu that changes color or style when scrolled or 
+            when hovering over a menu item. The navigation menu should have a fixed position and 
+            be visible on all pages. Use HTML to structure the menu, CSS to style it, and JavaScript 
+            to add interactivity, such as changing the background color or font color of the menu when
+             it is scrolled or when a menu item is hovered over. 
+
+          </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class='bx bx-crop'></i>
+          <h2>Stopwatch</h2>
+          <p>
+            I build a stopwatch web application, you can use HTML, CSS, and JavaScript. HTML is used to structure the elements of the application. By implementing functions for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times, users can accurately measure and record time intervals. With these technologies and functionalities, you can create an interactive and user-friendly stopwatch web application.
+          </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class='bx bxl-sketch'></i>
+          <h2>Weather-App</h2>
+          <p>I Build a web page that fetches weather data from a weather API based on the user's location or a user-inputted location. Display the current weather conditions, temperature, and other relevant information.</p>
+            <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------------Portfolio-------------------->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="work1.1.jpeg" alt="#">
+          <div class="layer">
+            <h3>Responsive Website</h3>
+            <p>Interactive Landing page </p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work1.2.jpeg" alt="#">
+          <div class="layer">
+            <h3>Stopwatch</h3>
+            <p>Stoptwatch with lap functionality</p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work1.3.jpeg" alt="#">
+          <div class="layer">
+            <h3>Weather-App</h3>
+            <p>Weather-App showing current weather & temperature,etc</p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!------------------Contact---------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class='bx bxs-send' ></i>phadtares@gmail.com</p>
+          <p><i class='bx bxs-phone-call'></i>0123456789</p>
+          <div class="social-icons">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+          </div>
+          <a href="Vaibhavi's Resume1.pdf" download class="btn btn2">Download CV</a>
+
+        </div>
+        <div class="contact-right">
+ p          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <div class="copyright">
+      <p>Copyright © Vaibhavi.All rights reserved<i class='bx bxs-heart'></i></p>
+    </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
